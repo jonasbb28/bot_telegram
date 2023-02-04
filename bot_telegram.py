@@ -1,7 +1,8 @@
 import requests
 import telebot
 from googletrans import Translator
-from key import key_api
+
+key_api = input("Sua chave API: ")
 
 bot = telebot.TeleBot(key_api)
 
